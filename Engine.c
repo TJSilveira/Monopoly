@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-#include "C:\Users\tiago\Documents\C_programming\Monopoly\Functions.h"
+#include "Functions.h"
 
 typedef struct player{
     short pl_number;
@@ -39,9 +39,9 @@ typedef struct dice
 int main(){
     srand(time(NULL));
     // File import
-    FILE *board_file = fopen("C:\\Users\\tiago\\Documents\\C_programming\\Monopoly\\csv\\board_setup - 2.csv", "r");
-    FILE  *player_file = fopen("C:\\Users\\tiago\\Documents\\C_programming\\Monopoly\\csv\\players.csv", "r");
-    FILE *chanceCC_file = fopen("C:\\Users\\tiago\\Documents\\C_programming\\Monopoly\\csv\\Chance and CC.csv", "r");
+    FILE *board_file = fopen("./csv/board_setup - 2.csv", "r");
+    FILE  *player_file = fopen("./csv/players.csv", "r");
+    FILE *chanceCC_file = fopen("./csv/Chance and CC.csv", "r");
 
     // Create Player list and board
     property **board;
