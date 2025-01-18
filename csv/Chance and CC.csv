@@ -1,0 +1,33 @@
+Text,Advance to Location,Advance to Nearest RR,Advance to Nearest UT,Change Location,CF Bank,CF other players,GOJ,GTJ,CF per house,CF per hotel
+CC: Advance to Go (Collect $200),1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+CC: Bank error in your favour. Collect $200,NULL,NULL,NULL,NULL,200,NULL,NULL,NULL,NULL,NULL
+CC: Doctors fee. Pay $50,NULL,NULL,NULL,NULL,-50,NULL,NULL,NULL,NULL,NULL
+CC: From sale of stock you get $50,NULL,NULL,NULL,NULL,50,NULL,NULL,NULL,NULL,NULL
+CC: Get Out of Jail Free,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,NULL,NULL
+CC: Go to Jail. Go directly to jail- do not pass Go- do not collect $200,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,NULL
+CC: Holiday fund matures. Receive $100,NULL,NULL,NULL,NULL,100,NULL,NULL,NULL,NULL,NULL
+CC: Income tax refund. Collect $20,NULL,NULL,NULL,NULL,20,NULL,NULL,NULL,NULL,NULL
+CC: It is your birthday. Collect $10 from every player,NULL,NULL,NULL,NULL,NULL,10,NULL,NULL,NULL,NULL
+CC: Life insurance matures. Collect $100,NULL,NULL,NULL,NULL,100,NULL,NULL,NULL,NULL,NULL
+CC: Pay hospital fees of $100,NULL,NULL,NULL,NULL,-100,NULL,NULL,NULL,NULL,NULL
+CC: Pay school fees of $50,NULL,NULL,NULL,NULL,-50,NULL,NULL,NULL,NULL,NULL
+CC: Receive $25 consultancy fee,NULL,NULL,NULL,NULL,25,NULL,NULL,NULL,NULL,NULL
+CC: You are assessed for street repairs. $40 per house. $115 per hotel,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,-40,-115
+CC: You have won second prize in a beauty contest. Collect $10,NULL,NULL,NULL,NULL,10,NULL,NULL,NULL,NULL,NULL
+CC: You inherit $100,NULL,NULL,NULL,NULL,100,NULL,NULL,NULL,NULL,NULL
+Chance: Advance to Boardwalk.,40,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+Chance: Advance to Go (Collect $200).,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+Chance: Advance to Illinois Avenue. If you pass Go- collect $200.,26,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+Chance: Advance to St. Charles Place. If you pass Go- collect $200.,13,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+Chance: Advance to the nearest Railroad. If unowned- you may buy it from the Bank. If owned- pay wonder twice the rental to which they are otherwise entitled.,NULL,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+Chance: Advance to the nearest Railroad. If unowned- you may buy it from the Bank. If owned- pay wonder twice the rental to which they are otherwise entitled.,NULL,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+Chance: Advance token to nearest Utility. If unowned- you may buy it from the Bank. If owned- throw dice and pay owner a total ten times amount thrown.,NULL,NULL,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+Chance: Bank pays you dividend of $50.,NULL,NULL,NULL,NULL,50,NULL,NULL,NULL,NULL,NULL
+Chance: Get Out of Jail Free.,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,NULL,NULL
+Chance: Go Back 3 Spaces.,NULL,NULL,NULL,-3,NULL,NULL,NULL,NULL,NULL,NULL
+Chance: Go to Jail. Go directly to Jail- do not pass Go- do not collect $200.,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,NULL
+Chance: Make general repairs on all your property. For each house pay $25. For each hotel pay $100.,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,-25,-100
+Chance: Speeding fine $15.,NULL,NULL,NULL,NULL,-15,NULL,NULL,NULL,NULL,NULL
+Chance: Take a trip to Reading Railroad. If you pass Go- collect $200.,6,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+Chance: You have been elected Chairman of the Board. Pay each player $50.,NULL,NULL,NULL,NULL,NULL,50,NULL,NULL,NULL,NULL
+Chance: Your building loan matures. Collect $150.,NULL,NULL,NULL,NULL,150,NULL,NULL,NULL,NULL,NULL
